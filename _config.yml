@@ -98,4 +98,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+
+  repository: git@github.com:zh767/zh767.github.io.git
+
+  branch: master
